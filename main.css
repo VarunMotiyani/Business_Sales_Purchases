@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+body {
+  min-height: 100vh;
+  background-color: #eee;
+  color: #eee;
+}
+header,
+main,
+footer {
+  width: 80vw;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+header h1 {
+  color: rgb(96, 135, 159);
+}
+header h2 {
+  color: black;
+  font-weight: 500;
+}
+
+ h3 {
+  color: black;
+  font-weight: 500;
+}
+main h2 {
+  font-weight: 300;
+  color: rgb(96, 135, 159);
+}
+p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  color: rgb(96, 135, 159)b;
+}
+p.line {
+  border-bottom: 1px dotted #999;
+  clear: both;
+}
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  color: rgb(96, 135, 159);
+}
+a.btn {
+  background-color: gold;
+  color: black;
+  text-decoration: none;
+  padding: 0.25rem 2rem;
+  border: 1px solid #eee;
+  border-right: none;
+  border-bottom: none;
+  font-size: 0.8rem;
+  float: right;
+}
+table {
+  padding: 0;
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #777;
+  border-collapse: collapse;
+}
+th {
+  font-weight: 300;
+}
+th a {
+  /* position: relative;
+  transition: transform 2s linear 2s; */
+}
+td {
+  padding: 0.25rem 2rem;
+  border: 1px solid #777;
+  font-weight: 100;
+  font-size: 1rem;
+  color: black;
+}
+div.heading {
+  border-bottom: 5px solid rgb(96, 135, 159);
+}
+.filterForm {
+  float: right;
+  border-color:rgb(96, 135, 159);
+}
+input {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  height: 1.8rem;
+  margin: 0;
+  border: none;
+}
+input[type='submit'] {
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  height: 1.8rem;
+  border: none;
+  background-color: #777;
+  color: #222;
+  margin: 0;
+  cursor: pointer;
+}
+input[type='submit']:last-of-type {
+  background-color: #0275d8;
+  color: white;
+}
+
+.First .First,
+.Last .Last,
+.DateTime .DateTime,
+.Amount .Amount {
+  font-weight: 900;
+  transform: rotate(-5deg);
+  /* th */
+}
+.First .First > a,
+.Last .Last > a,
+.DateTime .DateTime > a,
+.Amount .Amount > a {
+  color: orangered;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top:100px
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.5rem 1.5rem;
+}
+.mb-3{
+  width:32%
+}
+.h6 mb-4{
+  color: rgb(96, 135, 159);
+  font-weight: 500;
+}
